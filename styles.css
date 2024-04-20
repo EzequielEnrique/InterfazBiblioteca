@@ -1,0 +1,160 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    color: #000; 
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.Puntos {
+    text-align: left;
+    margin: 60px 0;
+    font-size: 25px;
+    padding-left: 25px;
+    display: flex;
+    align-items: center; 
+}
+
+.Puntos img {
+    width: 43px; 
+    height: 43px; 
+    margin-right: 15px; 
+}
+
+#dummyButton {
+    margin-left: -1300px; 
+    margin-top: -65px; 
+    background: none; 
+    border: none; 
+    cursor: pointer;
+}
+
+#dummyButton img {
+    width: 30px; 
+    height: 30px; 
+}
+
+.Puntos.libro {
+    background-image: url('libro.png');
+}
+
+.Puntos.usuarios {
+    background-image: url('usuarios.png');
+}
+
+.Puntos.prestamos {
+    background-image: url('prestamos.png');
+}
+
+.Puntos.realizar {
+    background-image: url('realizar.png');
+}
+
+.linea-o {
+    position: fixed;
+    top: 120px; /* Ajusta este valor según tus necesidades */
+    left: 650px; /* Ajusta este valor según tus necesidades */
+    width: calc(100% - 500px); /* Ancho de la línea horizontal, ajustado para llegar al fondo */
+    height: 10px; /* Altura de la línea horizontal */
+    border-left: 2px solid #000000; /* Cambia el color según tus preferencias */
+    border-top: 2px solid #000000; /* Agrega la línea superior */
+    border: 5px solid #000000; /* Aumenta el grosor de la línea */
+    box-sizing: border-box; /* Evita que el grosor adicional afecte el tamaño total */
+}
+
+.linea-v {
+    position: fixed;
+    top: 120px; /* Ajusta este valor según tus necesidades */
+    left: 650px; /* Ajusta este valor según tus necesidades */
+    width: 2px; /* Ancho de la línea vertical */
+    height: calc(100% - 120px); /* Altura de la línea vertical, ajustada para llegar al fondo */
+    border-left: 2px solid #000000; /* Cambia el color según tus preferencias */    border: 4px solid #000000; /* Aumenta el grosor de la línea */
+    border: 5px solid #000000; /* Aumenta el grosor de la línea */
+    box-sizing: border-box; /* Evita que el grosor adicional afecte el tamaño total */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: transparent; /* Hace que el fondo sea transparente */
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px; /* Agregué un pequeño margen entre los botones */
+  }
+
+.pequeno h1 {
+    font-size: 15px; /* Puedes ajustar el tamaño según tus preferencias */
+    position: absolute;
+    top: 142px; /* Ajusta la distancia desde la parte superior según sea necesario */
+    left: 680px; /* Ajusta la distancia desde la izquierda según sea necesario */
+}
+
+.pequeno2 h1 {
+    font-size: 15px; /* Puedes ajustar el tamaño según tus preferencias */
+    position: absolute;
+    top: 142px; /* Ajusta la distancia desde la parte superior según sea necesario */
+    left: 1035px; /* Ajusta la distancia desde la izquierda según sea necesario */
+}
+
+/* Estilos para la imagen */
+#imagenToggle {
+    width: 35px; /* Puedes ajustar el tamaño de la imagen según tus necesidades */
+    cursor: pointer;
+    margin-bottom: -100000px; /* Mover hacia abajo */
+    margin-left: 1030px; /* Mover hacia la izquierda */
+    position: absolute; /* Cambié la posición a absoluta */
+    top: 130px; /* Ajusta la distancia desde la parte superior */
+    left: 20px; /* Ajusta la distancia desde la izquierda */
+  }
+  
+  /* Estilos para la lista oculta */
+  #miLista {
+    position: absolute;
+    display: none;
+    list-style-type: none;
+    left: 830;
+    width: -15px;
+    top: 119px;
+    font-size: 15px;
+  }
+  
+  #contenedorLista {
+    position: absolute; /* o relative según tus necesidades */
+    top: 50px; /* ajusta según tu diseño */
+    left: 500px; /* ajusta según tu diseño */
+    display: none; /* oculta inicialmente la lista */
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

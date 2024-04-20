@@ -1,0 +1,52 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfaz</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Evita el desplazamiento de la página */
+        }
+    </style>
+    <script>
+        function abrirEnNuevaPestana(url) {
+            window.open(url, '_blank');
+        }
+    </script>
+</head>
+<body>
+    <div class="pequeno">
+        <h1>Buscar por Cliente:</h1>
+    </div>
+    <div class="pequeno2">
+        <h1>Buscar por Título:</h1>
+    </div>
+    <div class="container">
+        <header>
+            <h1>Préstamos</h1>
+            
+            <button id="dummyButton" onclick="window.history.back();">
+                <img src="atras.png" alt="Icono">
+
+            </button> 
+            <button class="Puntos" onclick="abrirEnNuevaPestana('index.html')">
+                <img src="libro.png" alt="Libro"> Libros
+            </button>
+            <button class="Puntos" onclick="abrirEnNuevaPestana('usuarios.html')">
+                <img src="usuarios.png" alt="Usuarios"> Usuarios
+            </button>
+            <button class="Puntos" onclick="abrirEnNuevaPestana('prestamos.html')">
+                <img src="prestamos.png" alt="Préstamos"> Préstamos
+            </button>
+            <button class="Puntos" onclick="abrirEnNuevaPestana('realizar_prestamos.html')">
+                <img src="realizar.png" alt="Realizar Préstamos"> Realizar Préstamos
+            </button>  
+        </header>
+        <div class="linea-o"></div>
+        <div class="linea-v"></div>
+    </div>
+</body>
+</html>
